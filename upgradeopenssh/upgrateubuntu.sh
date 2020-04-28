@@ -1,6 +1,6 @@
 #!/bin/bash
-apt-get   install   telnetd  xinetd
-apt  install   libzip-dev  libssl-dev autoconf  gcc  libxml2   make
+apt-get   install   telnetd  xinetd -y
+apt  install   libzip-dev  libssl-dev autoconf  gcc  libxml2   make -y
 #cd /usr/local/src
 #wget https://cdn.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-7.9p1.tar.gz
 #wget https://www.openssl.org/source/openssl-1.1.1.tar.gz --no-check-certificate
