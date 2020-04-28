@@ -36,5 +36,3 @@ ln -s /usr/local/bin/openssl /usr/bin/openssl
 ln -s /usr/local/sbin/sshd /usr/bin/sshd
 service sshd  restart
 ssh  -V
-sshd -V
-openssl version -a
