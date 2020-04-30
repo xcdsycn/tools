@@ -10,5 +10,5 @@ export APISERVER_NAME=apiserver.admin.df
 echo "${MASTER_IP}    ${APISERVER_NAME}" >> /etc/hosts
 
 # 替换为 master 节点上 kubeadm token create 命令的输出
-kubeadm join apiserver.admin.df:6443 --token 17gfp1.w1neeo4kksriq4n1     --discovery-token-ca-cert-hash sha256:6e981db96db178f215c9b14c942140ea80db9c5125dcc0f5f18fe543e8193de6```
+kubeadm join apiserver.admin.df:6443 --token 17gfp1.w1neeo4kksriq4n1     --discovery-token-ca-cert-hash sha256:6e981db96db178f215c9b14c942140ea80db9c5125dcc0f5f18fe543e8193de6
 
